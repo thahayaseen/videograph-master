@@ -180,3 +180,23 @@
     });
 
 })(jQuery);
+
+function validation(){
+    let name=document.getElementById("fname")
+let email=document.getElementById("lname")
+let discription=document.getElementById("subject")
+if (name.value.trim() === "") {
+    // Handle case where name field is empty
+    // Example: Display an error message
+    alert("Name field cannot be empty!");
+    return false; // Prevent form submission or do other validation
+}
+
+else if(email.value.trim() === ""){
+    alert("Name field cannot be empty!");
+    return false;
+}
+else{
+return true
+}
+}
