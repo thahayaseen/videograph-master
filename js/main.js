@@ -197,7 +197,6 @@ else if(email.value.trim() === ""){
     return false;
 }
 else{
-return true,
-alert('form submited sucsesfully')
+return true;
 }
 }
